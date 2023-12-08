@@ -22,11 +22,17 @@ Using openCV on the video obtained from the Raspberry Pi camera, this project id
 
 # Hardware
 
-In this section, we will describe the hardware used in the project
+ describe the hardware used in the project
 
 ## Used modules
 
 * <a href="https://www.devicemart.co.kr/goods/view?no=1327429">MQ-3</a>
+* <a href="https://www.devicemart.co.kr/goods/view?no=12537448">pcf8591</a>
+* <a href="https://www.devicemart.co.kr/goods/view?no=2851">LED</a>
+* <a href="https://www.devicemart.co.kr/goods/view?no=1361702">button</a>
+* <a href="https://www.devicemart.co.kr/goods/view?no=2736">buzzer</a>
+* <a href="https://smartstore.naver.com/misoparts/products/5533715543?site_preference=device&NaPm=ct%3Dlfp2u7tv%7Cci%3Dshopn%7Ctr%3Dsls_myr%7Chk%3D7c9d00b72aacb4353e5e3af8bfcf9d3635777aaf%7Ctrx%3D">raspicam</a>
+* <a href="https://www.devicemart.co.kr/goods/view?no=12234534">Raspberry Pi Model B 4GB</a>
 
 ## circuit diagram
 
