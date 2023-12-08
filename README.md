@@ -9,7 +9,7 @@ Drowsy drivers may close their eyes and have difficulty maintaining focus on the
 
 This system follows a sequence of booting, alcohol measurement, and drowsy driving measurement loops.
 
-## drunk-driving-detectio
+## drunk-driving-detection
 
 The ignition of the car is activated by pressing the brake pedal and then pressing the ignition button. This aspect is also incorporated into this project. It first checks whether the brake button has been pressed. When the user presses the brake button, the brake LED (red) lights up. Then, after pressing the ignition button, it checks if the brake is activated, and the ignition LED (yellow) lights up. The activation of the brake function can be confirmed through the on/off status of the brake LED. Similarly, when turning on the final device, the on/off status of both the brake LED and ignition LED is checked.
 
@@ -20,7 +20,15 @@ Once the device is started, the alcohol sensor initiates measurement. Users can 
 
 Using openCV on the video obtained from the Raspberry Pi camera, this project identifies landmarks of the eyes. Based on the landmark coordinates, it calculates the aspect ratio of the eyes (EAR). When the eyes are closed, the EAR value approaches 0. By utilizing this, eye blinking can be detected. In this project, a threshold of 0.3 is set, and if the EAR value falls below this threshold, it is considered as an indication of closed eyes. If eye closure persists for a certain duration, it is determined as drowsy driving, and a buzzer is activated. This operation is carried out by counting the number of frames where the EAR value is below the threshold. In this project, if the EAR value remains below the threshold for 48 frames or more, it is considered as drowsiness.
 
+# Hardware
 
+In this section, we will describe the hardware used in the project
+
+## Used modules
+
+* <a href="https://www.devicemart.co.kr/goods/view?no=1327429">MQ-3</a>
+
+## circuit diagram
 
 
 
