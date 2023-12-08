@@ -35,7 +35,7 @@ Using openCV on the video obtained from the Raspberry Pi camera, this project id
 * <a href="https://www.devicemart.co.kr/goods/view?no=12234534">Raspberry Pi Model B 4GB</a>
 
 ## circuit diagram
-<img src="./asset/circuitDiagram.jpg>
+<img src="./asset/circuitDiagram.jpg">
 
 # ref
 https://pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/
