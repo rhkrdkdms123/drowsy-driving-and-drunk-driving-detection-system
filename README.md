@@ -37,5 +37,13 @@ Using openCV on the video obtained from the Raspberry Pi camera, this project id
 ## circuit diagram
 <img src="./asset/circuitDiagram.jpg">
 
+# Dependency
+`opencv 4.6.0`
+
+# start
+```
+python3 system.py
+```
+
 # ref
 https://pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/
